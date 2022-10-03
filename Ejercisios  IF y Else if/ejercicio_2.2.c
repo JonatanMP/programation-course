@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*incremento de precio.
+El programa recibe como dato el precio del prodcto importado,
+este incrementa un 11% al precio recibido si este es menor a 1500 */
+
 int main()
 {
     float pre; /* la variable pre, representa el precio del producto. */
