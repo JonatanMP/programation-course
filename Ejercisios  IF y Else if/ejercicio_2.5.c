@@ -6,7 +6,7 @@
 int main ()
 {
     int op, t; /*variables de tipo entero*/
-    float res; /*varianle de tipo real*/
+    float res; /*varianble de tipo real*/
     printf("ingrese la opcion del calculo y el valor entero");
     scanf("%d %d", &op, &t);
 
