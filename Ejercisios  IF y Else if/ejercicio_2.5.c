@@ -28,7 +28,7 @@ int main ()
         break;
     }
 
-    
+    printf("\nresultado: %7.2f", res);
     
     return 0;
 
