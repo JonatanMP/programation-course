@@ -16,7 +16,7 @@ int main ()
         /* code */
         break;
 
-    case 2: res = pow(t/t);
+    case 2: res = pow(t,t);
     /*la funcion pow esta definida en la biblioteca math.h*/
     break;
 
