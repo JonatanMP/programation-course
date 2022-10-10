@@ -14,10 +14,6 @@ scanf("%d", &niv); /*entrada de datos*/
 printf("\ningrese el salario: "); /*imprime texto por consola */
 scanf("%f",&sal); /*recibe datos por consola*/
 
-switch (niv)/*switch*/
-printf("\ningrese el salario: "); /*imprime por consola*/
-scanf("%f",&sal); /*entrada de datos*/
-
 switch (niv) /*switch*/
 {
     case 1: sal = sal * 1.0035;  break; /*asigna el nuevo salario*/
