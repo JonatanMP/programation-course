@@ -14,18 +14,20 @@ scanf("%d", &niv); /*entrada de datos*/
 printf("\ningrese el salario: "); /*imprime texto por consola */
 scanf("%f",&sal); /*recibe datos por consola*/
 
-switch (niv)
-printf("\ningrese el salario: ");
-scanf("%f",&sal);
+switch (niv)/*switch*/
+printf("\ningrese el salario: "); /*imprime por consola*/
+scanf("%f",&sal); /*entrada de datos*/
 
-switch (niv)
+switch (niv) /*switch*/
 {
-    case 1: sal = sal * 1.0035;  break;
-    case 2: sal = sal * 1.0041;  break;
-    case 3: sal = sal * 1.0048;  break;
-    case 4: sal = sal * 1.0053;  break;
+    case 1: sal = sal * 1.0035;  break; /*asigna el nuevo salario*/
+    case 2: sal = sal * 1.0041;  break; /*asigna el nuevo salario*/
+    case 3: sal = sal * 1.0048;  break; /*asigna el nuevo salario*/
+    case 4: sal = sal * 1.0053;  break; /*asigna el nuevo salario*/
 }
 
-printf("\nnivel %d \tnuevo salario: %8.2f", niv, sal);
+printf("\nnivel %d \tnuevo salario: %8.2f", niv, sal); /*imprime el resultado por consola*/
+
+return 0;
 
 }
