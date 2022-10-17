@@ -2,9 +2,7 @@
 /*    Programacion para mecatronica          */
 /*  Nombre: Jonatan Matos Pérez              */
 /*  Matricula: 2022-0384                     */
-/*  Seccion: sabado                          */
-/*  practica: tabla de multiplicacion        */
-/*  Fecha: 28/5/2022                         */
+/*  tabla de multiplicacion                  */
 /*********************************************/
 
 #include <stdio.h>
