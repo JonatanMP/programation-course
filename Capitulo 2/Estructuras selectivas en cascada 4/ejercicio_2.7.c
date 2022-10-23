@@ -50,5 +50,7 @@ int main()
             printf("\n\n El orden es R, S y P: %8.2f %8.2f %8.2f", r, s, p);
         }
     }
+
+    return 0;
     
 }
