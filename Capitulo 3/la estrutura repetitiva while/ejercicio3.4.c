@@ -16,7 +16,7 @@ int main()
     //la condicion es verdadera mientras el entero es diferente de cero.
     {
         cua = pow (num,2);
-        printf("%d al cubo es %d ", num, cua);
+        printf("%d al cubo es %ld ", num, cua);
         suc = suc + cua;
         printf("\ningrese un numero entero -0 para terminar-:\t");
         scanf("%d",&num);
