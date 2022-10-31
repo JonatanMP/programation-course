@@ -16,10 +16,11 @@ void main(void)
         cub = cubo(); //llamada a la funcion cubo.
         printf("\nEl cubo de %d es: %d", i, cub);
     }
+}
 
-    int cubo(void) //declaracion de la funcion.
-    /*la funcion calcula el cubo de la variable global I. */
+int cubo(void) //declaracion de la funcion.
+/*la funcion calcula el cubo de la variable global I. */
 
+{
     return (i*i*i);
-
 }
