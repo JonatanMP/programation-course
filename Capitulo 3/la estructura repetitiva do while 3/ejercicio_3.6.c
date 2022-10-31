@@ -2,7 +2,7 @@
 
 int main()
 {
-    int i;//variable de tipo entero
+    int i = 0;//variable de tipo entero
     float sal, pro, nom = 0;// variable de tipo real.
     printf("ingrese el salario del profesor:\t");
     // se necesita el salario de almenos un profesor para que no de error.
@@ -18,7 +18,7 @@ int main()
     } while (sal);
 
     pro = nom / i;
-    printf("\nNomina: %.2f \t Promedio de salarios: %.2f", nom, pro);    
+    printf("\nNomina: %.2f \t Promedio de salarios: %.2f", nom, pro);
 
     return 0;
 }
