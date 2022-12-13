@@ -8,7 +8,7 @@ void main(void)
 {
 int I;
 for (I = 1; I <= 10; I++)
-printf("\nEl cubo de I es:%d", cubo(I));
+printf("\nEl cubo de %d es:%d", I,cubo(I));
 /* Llamada a la función cubo. El paso del parámetro es por valor. */
 }
 int cubo(int K) /* K es un parámetro por valor de tipo entero. */

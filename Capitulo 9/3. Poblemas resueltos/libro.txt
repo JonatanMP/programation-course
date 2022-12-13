@@ -1,0 +1,1 @@
+cd "c:\Users\Admin\Desktop\ITLA\Cuatrimestre 3\Programacion para mecatronicos\codigo\Capitulo 9\3. Poblemas resueltos"
